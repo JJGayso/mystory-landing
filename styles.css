@@ -189,24 +189,11 @@ img {
     margin-top: var(--spacing-xl);
 }
 
-.screenshot-placeholder {
-    background: var(--color-card);
-    border: 2px dashed var(--color-border);
+.hero-image {
+    max-width: 100%;
+    max-height: 600px;
     border-radius: var(--border-radius-lg);
-    padding: var(--spacing-2xl);
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-.screenshot-placeholder p {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin-bottom: var(--spacing-xs);
-}
-
-.screenshot-placeholder span {
-    color: var(--color-text-secondary);
-    font-size: 0.9rem;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
 }
 
 /* ===== Sections ===== */
